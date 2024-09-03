@@ -1,8 +1,15 @@
 import mysql.connector
+# mydb = mysql.connector.connect(
+#     host="localhost",
+#     user='root',
+#     password='root',
+#     database='lightForums',
+#     port=3306
+# )
 mydb = mysql.connector.connect(
-    host="localhost",
-    user='root',
-    password='root',
+    host="lightforums-db.c34ewsgui5yb.us-east-1.rds.amazonaws.com",
+    user='admin',
+    password='qfd231kf!',
     database='lightForums',
     port=3306
 )
